@@ -1,0 +1,29 @@
+.half-auth {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.half-auth__content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 10rem;
+  width: 50%;
+}
+
+.logo {
+  justify-self: start;
+}
+
+.half-auth__image-container {
+  width: 50%;
+  height: 100%;
+}
+
+.half-auth__image-container .image {
+  width: 100%;
+  height: 100%;
+}
